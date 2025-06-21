@@ -1,9 +1,10 @@
 <?php
-	$Hostname = getenv("DB_HOST");
-	$Username = getenv("DB_USER");
-	$Password = getenv("DB_PASS");
-	$DBname = getenv("DB_NAME");
-	$Port = getenv("DB_PORT");
+	$Hostname = getenv("MYSQLHOST");
+$Username = getenv("MYSQLUSER");
+$Password = getenv("MYSQLPASSWORD");
+$DBname   = getenv("MYSQLDATABASE");
+$Port     = getenv("MYSQLPORT");
+
 
 	$con = mysqli_connect($Hostname, $Username, $Password, $DBname, $Port);
 
