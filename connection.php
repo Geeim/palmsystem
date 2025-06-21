@@ -1,10 +1,10 @@
 <?php
 
-echo $Hostname = "sql103.infinityfree.com"; // HOST
-$Username = "if0_39284576";            // USERNAME
-$Password = "t1Nj4FsjrU";              // PASSWORD
-$DBname   = "if0_39284576_palm";       // DB NAME
-$Port     = 3306;                      // PORT
+echo $Hostname = "sql12.freesqldatabase.com";
+$Username = "sql12785979";            
+$Password = "NgdPaYkpqH";             
+$DBname = "sql12785979";      
+$Port = 3306;                     
 
 $con = mysqli_connect($Hostname, $Username, $Password, $DBname, $Port);    
 
