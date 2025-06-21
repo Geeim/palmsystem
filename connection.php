@@ -6,12 +6,6 @@ $DBname   = getenv("MYSQLDATABASE");
 $Port     = getenv("MYSQLPORT");
 
 
-	$con = mysqli_connect($Hostname, $Username, $Password, $DBname, $Port);
-
-if (!$con){
-    echo "Connection failed!";
-    exit();
-}
 
 echo "Host: " . getenv("DB_HOST") . "<br>";
 echo "User: " . getenv("DB_USER") . "<br>";
