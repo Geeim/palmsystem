@@ -11,5 +11,8 @@ $con = mysqli_connect($Hostname, $Username, $Password, $DBname, $Port);
 	if (!$con){
 		echo "Connection failed!";
 		exit();
+	}else{
+		echo "NagSuccess!";
 	}
+
 ?>
