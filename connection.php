@@ -1,6 +1,6 @@
 <?php
 
-echo $Hostname = "sql12.freesqldatabase.com";
+$Hostname = "sql12.freesqldatabase.com";
 $Username = "sql12785979";            
 $Password = "NgdPaYkpqH";             
 $DBname = "sql12785979";      
